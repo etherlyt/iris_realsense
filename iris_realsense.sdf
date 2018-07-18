@@ -8,7 +8,7 @@
 
     <include>
       <uri>model://realsense_camera</uri>
-      <pose>0 0 0.055 0 0 0</pose>
+      <pose>0 0 -0.045 0 0 0</pose>
     </include>
     <joint name="realsense_joint" type="fixed">
       <child>realsense_camera::link</child>
